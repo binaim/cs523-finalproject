@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa4789de-a307-4c45-9838-7b23b61d696f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SparkSQL&amp;Hive.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/utils/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/utils/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/utils/event.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/utils/hbase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/utils/listener.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/final-project-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/config/hbase-env.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/config/hbase-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/config/zoo.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/script/start-pseudo.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark_sql.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs523/HBaseWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs523/KafkaStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs523/KafkaWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs523/SparkSQLAnalyze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cs523/TableUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start-all.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stop-all.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/dataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2WB9QpzRfYr1QeaBOFLQcBrx7JO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/biniamghebremedhin/Documents/Personal Data/finalproject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/cs523" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="finalproject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="finalproject" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa4789de-a307-4c45-9838-7b23b61d696f" name="Changes" comment="" />
+      <created>1696195094863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696195094863</updated>
+      <workItem from="1696195096008" duration="1502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
