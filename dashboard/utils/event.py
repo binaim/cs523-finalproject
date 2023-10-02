@@ -43,6 +43,7 @@ class Event:
                 go.Scatter(
                     x=self.dates,
                     y=self.views,
+                    line=dict(color='yellow'),  # Set line color to green
                     legendgroup="view",
                     name="View",
                     legendgrouptitle=Legendgrouptitle(text="View"),
@@ -50,6 +51,7 @@ class Event:
                 go.Scatter(
                     x=self.dates,
                     y=self.carts,
+                    line=dict(color='green'),  # Set line color to green
                     name="Cart",
                     legendgroup="cart",
                     legendgrouptitle=Legendgrouptitle(text="Cart"),
@@ -58,6 +60,7 @@ class Event:
                     x=self.dates,
                     y=self.purchases,
                     name="Purchase",
+                    line=dict(color='red'),  # Set line color to green
                     legendgroup="purchase",
                     legendgrouptitle=Legendgrouptitle(text="Purchase"),
                 ),

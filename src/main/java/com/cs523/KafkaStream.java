@@ -28,7 +28,6 @@ public class KafkaStream {
     public static void main(String[] args) throws InterruptedException, IOException {
         TableUtils tableUtils = new TableUtils();
         tableUtils.createTable();
-        // Logger.getRootLogger().setLevel(Level.OFF);
 
         SparkConf sparkConf = new SparkConf().setAppName("JavaNetworkWordCount");
 
@@ -67,7 +66,7 @@ public class KafkaStream {
         JavaPairDStream<String, Integer> categoryViewCounts = datas
                 .filter(obj -> obj.get("event_type").asText().equals("view"))
                 .map((JsonNode obj) -> obj.get("category_code").asText(null))
-                .filter(c -> c != null && !c.isBlank())
+                .filter(c -> c != null && !c.isEmpty())
                 .mapToPair(c -> new Tuple2<String, Integer>(c.split("\\.")[0], 1))
                 .reduceByKey((x, y) -> x + y);
 
